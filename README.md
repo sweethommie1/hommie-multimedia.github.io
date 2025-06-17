@@ -1,4 +1,39 @@
-<!DOCTYPE html>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #0d4fff, #ffffff);
+  color: #111;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+}
+.tagline {
+  font-style: italic;
+  color: gold;
+}
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+section {
+  padding: 2rem;
+}
+img {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #000;
+  color: white;
+}<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
